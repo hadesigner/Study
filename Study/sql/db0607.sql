@@ -1,7 +1,7 @@
 SELECT *
 FROM v_takes
 
-CREATE OR REPLACE VIEW v_takes as 
+CREATE OR REPLACE VIEW v_takes as
 SELECT stu_id, class_id
 FROM TAKES;
 
